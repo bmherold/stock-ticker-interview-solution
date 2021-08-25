@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 25px;
+}
+
+.stonk.up {
+  box-shadow: 0px 0px 15px lime;
+}
+.stonk.up .price {
+  color: lime;
+}
+.stonk.down {
+  box-shadow: 0px 0px 15px red;
+}
+.stonk.down .price {
+  color: red;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: gray;
+  border: 3px solid gray;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+  background: #fafafa;
+  font-size: 1.5rem;
+}
+
+li h4 {
+  margin: 0 0 10px;
+  text-decoration: underline;
+}
